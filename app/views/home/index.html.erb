@@ -1,13 +1,19 @@
-<div class="container">
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">글 제목</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="제목을 입력하세요">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">글 내용</label>
-        <textarea class="form-control" rows="5" id="exampleInputPassword1" placeholder="내용을 입력하세요"></textarea>
-      </div> 
-      <button type="submit" class="btn btn-default">제출</button>
-    </form>
+<div class="container font">
+    <div class="page_image">
+    <center><h1 class="page_title">Moomin</h1></center>
+
+    </div>
+    <div class="page_content">
+      <form action="/write" method="POST">
+        <div class="form-group">
+          <label for="title">제목</label>
+          <input name="title" type="text" class="form-control" id="title" placeholder="제목을 입력하세요">
+        </div>
+        <div class="form-group">
+          <label for="content">내용</label>
+          <textarea name="content" class="form-control" rows="5" id="content" placeholder="내용을 입력하세요"></textarea>
+        </div> 
+        <button type="submit" class="btn btn-default">제출</button>
+      </form>
+    </div>
 </div>

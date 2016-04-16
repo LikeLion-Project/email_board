@@ -1,3 +1,31 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.page_image{
+    
+    background-image: url("/assets/moomin2.png");
+    background-size: 100% 100%;
+    margin: 100px 0px 50px 0px;
+    border-radius: 100px;
+    height: 500px;
+    
+}
+
+.page_content{    
+    margin-bottom: 100px;
+    
+}  
+
+.page_title{
+    color: white;
+    // display: inline;
+    // padding: 10px;
+    // border-radius : 30px;
+    // background: rgba(54, 25, 25, .3);
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+    text-shadow: 4px 4px #2B447D;
+    font-size: 60px;
+    
+}
