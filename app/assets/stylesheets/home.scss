@@ -1,31 +1,58 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.page_border{
+    margin: 100px auto;
+    background-color: #006EB9;
+    // background-image: url("/assets/moomin_bg");
+    // background-size: 100% 100%;
+    box-shadow: 0px 0px 20px #5c5c5c;
+}
+
 .page_image{
     
-    background-image: url("/assets/moomin2.png");
-    background-size: 100% 100%;
-    margin: 100px 0px 50px 0px;
-    border-radius: 100px;
-    height: 500px;
+    background-image: url("/assets/moomin3.jpg");
+    background-size: cover;
+    margin: 50px;    
+    height: 250px;
     
 }
 
 .page_content{    
     margin-bottom: 100px;
+    padding: 0px 100px;
+    
+    .form_group{
+        
+        padding-bottom: 5px;
+        
+    }
+    
+    .form_input{
+        margin: 10px 0px;
+    }
+    .form_textarea{
+        margin: 10px 0px;
+        resize: none;
+    }
     
 }  
 
-.page_title{
+.label_attr{
     color: white;
-    // display: inline;
-    // padding: 10px;
-    // border-radius : 30px;
-    // background: rgba(54, 25, 25, .3);
-    text-align: right;
-    padding-top: 30px;
-    padding-right: 50px;
-    text-shadow: 4px 4px #2B447D;
-    font-size: 60px;
-    
+    display: inline;
+    background: #7bc5cc;
+    border-radius: 10px;
+    // box-shadow: 4px 4px 3px #b8b8b8;
+    padding: 5px;
+}
+
+.submit_button{
+    color: white;
+    display: inline;
+    background: #7bc5cc;
+    border-radius: 10px;
+    // box-shadow: 4px 4px 3px #b8b8b8;
+    padding: 5px 10px;    
+    float: right;
 }
