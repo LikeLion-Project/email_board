@@ -12,7 +12,7 @@ class HomeController < ApplicationController
     mg_client = Mailgun::Client.new("key-7c01232578d55b7cc10a70bf6b9cd54e")
 
     message_params =  {
-                       from: 'jwchoi0129@gmail.com',
+                       from: 'admin@marvel.com',
                        to:   @email,
                        subject: @title,
                        text:    @content
@@ -22,5 +22,8 @@ class HomeController < ApplicationController
     
     message_id = result['id']
     message = result['message']    
+  end
+  
+  def list
   end
 end

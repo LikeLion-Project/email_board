@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .page_border{
     margin: 100px auto;
+    min-width: 800px;
     background-color: #071723;
     // background-image: url("/assets/moomin_bg");
     // background-size: 100% 100%;
@@ -10,25 +11,19 @@
 }
 
 .page_image{
-    
     background-image: url("/assets/civilwar.jpg");
     background-size: 100% 100%;
     margin: 50px;    
     height: 400px;
     box-shadow: 0px 0px 15px #000000;
-    
 }
 
 .page_content{    
     margin-bottom: 100px;
     padding: 0px 100px;
-    
     .form_group{
-        
         padding-bottom: 5px;
-        
     }
-    
     .form_input{
         margin: 10px 0px;
     }
@@ -59,10 +54,7 @@
 }
 
 .content_group{
-    
     padding: 10px 0px;
-    
-    
 }
 
 .content_box{    
@@ -70,5 +62,4 @@
     border-radius: 5px;
     margin: 15px 0px;
     padding: 10px;
-    
 }
