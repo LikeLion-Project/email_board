@@ -31,6 +31,7 @@ class HomeController < ApplicationController
   
   def list
     
+    @mail_list = MailList.all.order("id desc")
     
   end
 end
