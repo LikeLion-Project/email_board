@@ -4,6 +4,7 @@ class HomeController < ApplicationController
   
   def write
     
+    @email = params[:email]
     @title = params[:title]
     @content = params[:content]
     
