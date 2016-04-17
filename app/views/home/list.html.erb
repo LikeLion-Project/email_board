@@ -13,17 +13,18 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <% @mail_list.each do |mail| %>                                
-                        <tr>
+                    <% @mail_list.each do |mail| %>                                                       
+                        <tr>                         
                             <td class="col-xs-1"><%= mail.id %></td>
-                            <td class="col-xs-5"><%= mail.title %></td>
+                            <td class="col-xs-5"><a href="/detail/<%=mail.id%>"><%= mail.title %></a></td>
                             <td class="col-xs-3"><%= mail.email %></td>
-                            <td class="col-xs-3"><%= mail.created_at.in_time_zone("Seoul").strftime("%Y.%m.%d %H:%M") %></td>
+                            <td class="col-xs-3"><%= mail.created_at.in_time_zone("Seoul").strftime("%Y.%m.%d %H:%M") %></td>                        
                         </tr>
                     <% end %>
                 </tbody>
             </table>
         </div>
+        <a href="/write" class="submit_button hvr-buzz-out">이메일 작성</a>
     </div>
 </div>
 

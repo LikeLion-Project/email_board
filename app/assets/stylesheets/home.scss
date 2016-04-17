@@ -52,6 +52,16 @@
     padding: 5px 10px;    
     float: right;
 }
+.submit_button:hover{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    background: #25536A;
+    border-radius: 10px;
+    // box-shadow: 4px 4px 3px #b8b8b8;
+    padding: 5px 10px;    
+    float: right;
+}
 
 .content_group{
     padding: 10px 0px;
@@ -69,5 +79,10 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px #000000;
-    
+    margin-bottom: 20px;
+}
+
+.notice_mail{    
+    color: white;
+    margin-bottom: 20px;    
 }

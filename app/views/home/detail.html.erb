@@ -1,5 +1,5 @@
 <div class="container page_border">
-    <div class="page_image animated bounce">
+    <div class="page_image">
     </div>
     <div class="page_content">
       <div class="content_group">
@@ -14,5 +14,6 @@
         <h4 class="label_attr">내용</h4>
         <h5 class="content_box"><%= @mail.content.gsub(/\r\n/, '<br/>').html_safe %></h5>
       </div>
+      <a href="/list" class="submit_button hvr-buzz-out">목록으로 돌아가기</a>
     </div>
 </div>

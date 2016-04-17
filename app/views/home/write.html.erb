@@ -1,7 +1,8 @@
 <div class="container page_border">
-    <div class="page_image animated bounce">
+    <div class="page_image">
     </div>
     <div class="page_content">
+      <center><h1 class="notice_mail animated fadeInDown">메일이 성공적으로 전송 되었습니다.</h1></center>
       <div class="content_group">
         <h4 class="label_attr">받은 이메일 주소</h4>
           <h5 class="content_box"><%= @email %></h5>
@@ -14,5 +15,6 @@
         <h4 class="label_attr">내용</h4>
         <h5 class="content_box"><%= @content.gsub(/\r\n/, '<br/>').html_safe %></h5>
       </div>
+      <a href="/list" class="submit_button hvr-buzz-out">목록으로 돌아가기</a>
     </div>
 </div>
