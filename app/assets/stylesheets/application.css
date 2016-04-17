@@ -1,0 +1,7 @@
+body {
+  background-color: #7E1B04; }
+  body p, body h1, body h2, body h3, body h4, body h5, body h6, body a, body button {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-weight: bold !important; }
+
+/*# sourceMappingURL=application.css.map */

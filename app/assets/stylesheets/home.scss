@@ -3,18 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .page_border{
     margin: 100px auto;
-    background-color: #006EB9;
+    background-color: #071723;
     // background-image: url("/assets/moomin_bg");
     // background-size: 100% 100%;
-    box-shadow: 0px 0px 20px #5c5c5c;
+    box-shadow: 0px 0px 20px #000000;
 }
 
 .page_image{
     
-    background-image: url("/assets/moomin3.jpg");
+    background-image: url("/assets/civilwar.jpg");
     background-size: 100% 100%;
     margin: 50px;    
-    height: 250px;
+    height: 400px;
+    box-shadow: 0px 0px 15px #000000;
     
 }
 
@@ -41,7 +42,7 @@
 .label_attr{
     color: white;
     display: inline;
-    background: #7bc5cc;
+    background: #25536A;
     border-radius: 10px;
     // box-shadow: 4px 4px 3px #b8b8b8;
     padding: 5px;
@@ -50,7 +51,7 @@
 .submit_button{
     color: white;
     display: inline;
-    background: #7bc5cc;
+    background: #25536A;
     border-radius: 10px;
     // box-shadow: 4px 4px 3px #b8b8b8;
     padding: 5px 10px;    
