@@ -29,9 +29,11 @@ class HomeController < ApplicationController
     
   end
   
-  def list
-    
-    @mail_list = MailList.all.order("id desc")
-    
+  def list    
+    @mail_list = MailList.all.order("id desc")    
+  end
+  
+  def detail
+    @mail = MailList.find(params[:id])
   end
 end
